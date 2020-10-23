@@ -53,9 +53,9 @@ class DefaultController extends ControllerWithParam
 //        die();
 
 
-        $this->view->title = "Поговорки с ответами | 15000 поговорок на Pro-Zagadki.ru";
+        $this->view->title = "Поговорки  | 15000 поговорок на Pro-Zagadki.ru";
         $this->view->registerMetaTag(
-            ['name' => 'description', 'content' => "Лучшие загадки с ответами для детей и взрослых! Более 15000 поговорок на разные темы на Pro-Zagadki.ru"]
+            ['name' => 'description', 'content' => "Лучшие загадки  для детей и взрослых! Более 15000 поговорок на разные темы на Pro-Zagadki.ru"]
         );
 
 
