@@ -70,9 +70,19 @@ class Items extends \yii\db\ActiveRecord
         return $detailUrl;
     }
 
+    public function getQustion()
+    {
+        return $this->name;
+    }
+
+  public function getAnswer()
+    {
+        return $this->name;
+    }
+
     public function getFullTitleName()
     {
-        $str = $this->qustion;
+        $str = $this->name;
 
         if (substr_count($str, ' ') < 30) {
 
