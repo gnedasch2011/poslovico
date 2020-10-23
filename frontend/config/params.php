@@ -1,6 +1,6 @@
 <?php
 return [
     'adminEmail' => 'admin@example.com',
-    'mainBreadcrumbsName' => 'Загадки',
-    'mainWord' => 'Загадки',
+    'mainBreadcrumbsName' => 'Поговорки',
+    'mainWord' => 'Поговорки',
 ];

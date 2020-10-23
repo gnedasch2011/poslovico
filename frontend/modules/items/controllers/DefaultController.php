@@ -35,9 +35,9 @@ class DefaultController extends ControllerWithParam
             'url' => '/' . $model->category->getUrl(),
         );
 
-        $this->view->title = $model->getFullTitleName() . "| Про-Загадки.РУ";
+        $this->view->title = $model->getFullTitleName() . "| Про-Поговорки.РУ";
         $this->view->registerMetaTag(
-            ['name' => 'description', 'content' => $model->getFullTitleName() . "| Про-Загадки.РУ"]
+            ['name' => 'description', 'content' => $model->getFullTitleName() . "| Про-Поговорки.РУ"]
         );
 
 
