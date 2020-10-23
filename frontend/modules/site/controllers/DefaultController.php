@@ -59,7 +59,7 @@ class DefaultController extends ControllerWithParam
         );
 
 
-        $urlsCategorys = \Yii::$app->db->createCommand('SELECT c.* FROM puzzles.items_categorys ic
+        $urlsCategorys = \Yii::$app->db->createCommand('SELECT c.* FROM items_categorys ic
 right join category c on c.id = ic.category_id
 where category_id is not null
 group by c.name')->queryAll();
